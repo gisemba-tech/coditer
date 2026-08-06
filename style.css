@@ -644,23 +644,29 @@ section{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  
 }
 
 .contact-content-con .left-contact .contact-info .contact-item p {
   margin-top: 0.48px;
   margin-bottom: 0.48px;
   padding: 0;
+  
+}
+
+  .contact-content-con .left-contact .contact-info .contact-email {
+  flex-wrap: wrap;
+}
+contact-content-con .left-contact .contact-info .contact-email p {
   flex: 1;
-  overflow-wrap: break-word;
   min-width: 0;
   max-width: 100%;
+  overflow-wrap: break-word;
 }
-.contact-content-con .left-contact .contact-info .contact-item p span {
- display: inline-block;
+contact-content-con .left-contact .contact-info .contact-email p span {
+  display: inline-block;
   max-width: 100%;
   overflow-wrap: break-word;
-  
 }
 
 .contact-content-con .left-contact .contact-info .contact-item .icon {
