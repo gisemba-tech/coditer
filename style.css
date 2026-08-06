@@ -653,7 +653,6 @@ section{
   padding: 0;
   flex: 1;
   overflow-wrap: break-word;
-  word-break: break-word;
   min-width: 0;
   max-width: 100%;
 }
@@ -661,7 +660,7 @@ section{
  display: inline-block;
   max-width: 100%;
   overflow-wrap: break-word;
-  word-break: break-all;
+  
 }
 
 .contact-content-con .left-contact .contact-info .contact-item .icon {
