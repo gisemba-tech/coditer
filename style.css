@@ -825,12 +825,18 @@ section{
 }
 
 @media screen and (max-width: 600px) {
+  .port-text{
+    margin-left: 0;
+    padding: 32px 0;
+    text-align: center;
+  }
   .contact-container {
     padding-bottom: 6rem;
   }
 
   .about-container {
-    margin-left: 6rem;
+    margin-left: 0;
+    margin: 0 auto;
     grid-template-columns: 1fr;
   }
 
@@ -872,7 +878,9 @@ section{
 
   .main-title h2 {
     font-size: 2.5rem;
-    margin-left: 3rem;
+    margin-left: 0;
+    text-align: center;
+
   }
 
   .main-title h2 span {
@@ -964,7 +972,8 @@ section{
   .header-content {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
-    margin-left: 5rem;
+    margin-left: 0;
+    width: 100%;
   }
 
   .left-header .h-shape {
