@@ -644,34 +644,15 @@ section{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
-}
-
-.contact-content-con .left-contact .contact-info .contact-item p {
-  margin-top: 0.48px;
-  margin-bottom: 0.48px;
-  padding: 0;
-  
-}
-
-  .contact-content-con .left-contact .contact-info .contact-email {
   flex-wrap: wrap;
-}
-contact-content-con .left-contact .contact-info .contact-email p {
-  flex: 1;
-  min-width: 0;
+  width: 100%;
   max-width: 100%;
-  overflow-wrap: break-word;
-}
-contact-content-con .left-contact .contact-info .contact-email p span {
-  display: inline-block;
-  max-width: 100%;
-  overflow-wrap: break-word;
 }
 
 .contact-content-con .left-contact .contact-info .contact-item .icon {
   display: grid;
   grid-template-columns: 40px 1fr;
+  flex-shrink: 0;
 }
 
 .contact-content-con .left-contact .contact-info .contact-item .icon i {
@@ -679,7 +660,27 @@ contact-content-con .left-contact .contact-info .contact-email p span {
   align-items: center;
   font-size: 20.8px;
 }
-
+.contact-content-con .left-contact .contact-info .contact-item p {
+  margin-top: 0.48px;
+  margin-bottom: 0.48px;
+  padding: 0;
+  flex: 1;
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  text-align: right;
+}
+.contact-content-con .left-contact .contact-info .contact-item p span {
+  display: inline-block;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+.contact-container,
+.contact-content-con,
+.left-contact {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .contact-content-con .left-contact .contact-icon {
   display: flex;
   margin-top: 32px;
