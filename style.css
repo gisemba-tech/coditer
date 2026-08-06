@@ -903,12 +903,15 @@ section{
 
   .contact-content-con {
     flex-direction: column;
-    margin-left: 4rem;
+    margin-left: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .contact-content-con .right-contact {
     margin-left: 0;
     margin-top: 2.5rem;
+    width: 100%;
   }
 
   .contact-content-con .right-contact .i-c-2 {
